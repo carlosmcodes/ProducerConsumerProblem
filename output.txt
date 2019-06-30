@@ -1,0 +1,10 @@
+Current Time: Mon May  6 21:44:28 2019
+
+
+                        Number Of Buffers:     1
+                      Number Of Producers:     2
+                      Number Of Consumers:     3
+Number Of items produced by each Producer:     4
+      Time each Producer Sleeps (seconds):     5
+      Time each Consumer Sleeps (seconds):     6
+Total Runtime:  0 secs

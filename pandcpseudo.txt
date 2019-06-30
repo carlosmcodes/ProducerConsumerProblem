@@ -1,0 +1,33 @@
+Producer Thread:
+    lock the empty semaphore
+for the number of producer threads to create
+    insert x amount of values into buffer till the thread number is reached
+    sleeping for a certain amount of time per item insert
+    print the value that is being inserted as well as the threadID
+signal the full semaphore
+
+Consumer Thread:
+    lock the empty full semaphore
+for the number of consumer threads to create
+    insert x amount of values into buffer till the thread number is reached
+    sleeping for a certain amount of time per item insert
+    print the value that is being inserted as well as the threadID
+signal the empty semaphore
+
+Enqueue Buffer:
+lock the mutex
+if the number of items in the buffer does not equal the buffer
+    put the item in the buffer at position 'in'
+    in gets updated to (in + 1) modulus size of buffer
+    increment the counter of items in the buffer
+unlock the mutex
+
+Dequeue Buffer:
+lock the mutex
+if the the number in the buffer does not equal 0
+    the value getting dequeue'd is equal to (out + 1) modulus the size of the buffer
+    decrement the count of items in buffer
+unlock the mutex
+
+Testing strategy:
+    listen here buddy, i dont have a testing strategy. I barely know whats going on. You get one L project a semester. And though i did try, this is mine.
