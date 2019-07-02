@@ -1,6 +1,3 @@
-
-## Student Name : Carlos Lopez
-
 ## Build Instructions
 Assuming you have cloned the project, the steps needed would be to go to the project directory and type 'make'. Once done, build has completed.
 
